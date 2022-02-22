@@ -1,6 +1,28 @@
-.mainbar{
-    grid-area: aboutme, workexperience, studies, habilities, contact;
-    grid-template-columns:auto;
+.mainbar {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.1fr 1.9fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "aboutme workexperience studies habilities contact"
+      "info info info info info"; 
+}
+  .info { 
+      grid-area: info;
+}
 
-
+.mainbar .aboutme {
+    grid-area: aboutme;
+}
+.mainbar .workexperience { 
+      grid-area: workexperience; 
+}
+.mainbar .studies { 
+      grid-area: studies; 
+}
+.mainbar .habilities { 
+      grid-area: habilities; 
+}
+.mainbar .contact { 
+      grid-area: contact; 
 }
