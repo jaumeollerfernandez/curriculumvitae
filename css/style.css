@@ -1,0 +1,6 @@
+.mainbar{
+    grid-area: aboutme, workexperience, studies, habilities, contact;
+    grid-template-columns:auto;
+
+
+}
