@@ -1,5 +1,6 @@
 .mainbar {
     display: grid; 
+    background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 0.1fr 1.9fr; 
     gap: 0px 0px; 
@@ -25,4 +26,19 @@
 }
 .mainbar .contact { 
       grid-area: contact; 
+}
+
+.box-information {
+      background-color: rgb(61, 61, 61);
+      margin: 4px;
+      text-align: center;
+      color: aliceblue;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      border-radius: 10px;
+      }
+
+.background{
+
+      background-color: gray;
+
 }
