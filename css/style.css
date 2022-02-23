@@ -1,6 +1,6 @@
+
 .mainbar {
     display: grid; 
-    background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 0.1fr 1.9fr; 
     gap: 0px 0px; 
@@ -8,8 +8,11 @@
       "aboutme workexperience studies habilities contact"
       "info info info info info"; 
 }
-  .info { 
+.info { 
       grid-area: info;
+}
+.backgroundimg{
+      image-resolution:inherit;
 }
 
 .mainbar .aboutme {
@@ -29,16 +32,14 @@
 }
 
 .box-information {
-      background-color: rgb(61, 61, 61);
+      background-color: rgba(62, 178, 255, 0.767);
       margin: 4px;
       text-align: center;
       color: aliceblue;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-family: 'Roboto', sans-serif;
       border-radius: 10px;
-      }
-
-.background{
-
-      background-color: gray;
-
 }
+
+
+
+
