@@ -1,0 +1,56 @@
+.mainbar {
+    display: grid; 
+    background-color: rgb(37, 37, 37);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 60px 1.9fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "aboutme workexperience studies habilities contact"
+      "info info info info info"; 
+}
+.content { 
+      grid-area: info;
+      align-items: center;
+
+}
+.content-square{
+
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 20%;
+      height: 600px;
+      width: 1000px;
+      background-color: rgb(94, 94, 94);
+
+}
+
+
+.backgroundimg{
+      image-resolution:inherit;
+          
+}
+
+.mainbar .aboutme {
+    grid-area: aboutme;
+}
+.mainbar .workexperience { 
+      grid-area: workexperience; 
+}
+.mainbar .studies { 
+      grid-area: studies; 
+}
+.mainbar .habilities { 
+      grid-area: habilities; 
+}
+.mainbar .contact { 
+      grid-area: contact; 
+}
+
+.box-information {
+      background-color: rgba(75, 75, 75, 0.918);
+      margin: 4px;
+      text-align: center;
+      color: aliceblue;
+      font-family: 'JetBrains Mono', monospace;
+      border-radius: 10px;
+}
