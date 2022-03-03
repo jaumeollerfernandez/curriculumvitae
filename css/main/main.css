@@ -1,0 +1,194 @@
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono', monospace;
+
+}
+
+body{
+
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin: 50px;
+
+}
+
+.container .left_side{
+
+    position:relative;
+    background: rgb(70, 70, 70);
+    padding: 40px;
+}
+
+.container .right_side{
+
+    position: relative;
+    background:rgb(223, 223, 223);
+    padding: 40px;
+}
+
+.perfil{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.perfil .imagen{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfil .imagen img{
+
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+
+.perfil h2{
+
+    color: azure;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+.perfil h2 span{
+
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: azure;
+
+}
+
+.contacto{
+    padding-top: 30px;
+}
+
+.contacto .titulo{
+color: azure;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: left;
+padding-left: 20px;
+
+}
+
+.contacto ul{
+    position: relative;
+}
+
+.contacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contacto ul li .icono{
+
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: beige;
+}
+
+.contacto ul li span{
+
+    color: beige;
+    font-weight: 300;
+    text-align: right;
+    font-size: 14px;
+}
+.estudios{
+    padding-top: 30px;
+}
+
+.estudios .titulo{
+color: azure;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: left;
+padding-left: 20px;
+
+}
+
+.estudios ul{
+    position: relative;
+}
+
+.estudios ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: azure;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.estudios ul li .titulito{
+    margin-top: 40px;
+}
+
+.idiomas{
+    padding-top: 30px;
+}
+
+.idiomas .titulo{
+color: azure;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: left;
+padding-left: 20px;
+
+}
+
+.idiomas ul{
+    position: relative;
+}
+
+.idiomas ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    color: azure;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+}

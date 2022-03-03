@@ -1,6 +1,6 @@
 .mainbar {
     display: grid; 
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(29, 29, 29);
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 60px 1.9fr; 
     gap: 0px 0px; 
@@ -27,7 +27,7 @@
 
 .backgroundimg{
       image-resolution:inherit;
-          
+      border-image-repeat: repeat;          
 }
 
 .mainbar .aboutme {
