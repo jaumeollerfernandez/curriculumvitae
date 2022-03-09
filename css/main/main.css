@@ -286,3 +286,7 @@ padding-left: 20px;
     font-weight: 300;
     line-height: 1.6;
 }
+.about .adicional ul li
+{
+    list-style: none;
+}
